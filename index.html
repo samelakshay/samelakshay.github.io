@@ -10,58 +10,76 @@
     <script src="assets/js/main.js"></script>
 </head>
 <body>
-
     <header>
-        <a href="index.html">Akshay Samel</a>
+        <!-- COMPANY LOGO -->
+            <a href="index.html" id="company_logo">Akshay Samel</a>
+        <!-- PRIMARY NAVIGATION MENU -->
         <nav>
             <ul>
-                <li><a href="http://">About Me</a></li>
-                <li><a href="http://">My Portfolio</a></li>
-                <li><a href="http://">Contact Me</a></li>
-                <li><a href="http://">Articles</a></li>
+                <li><a href="http://">My Experties</a></li>
+                <li><a href="http://">My Work</a></li>
+                <li><a href="http://">Personal Projects</a></li>
+                <li><a href="http://">Hire Me</a></li>
             </ul>
-        </nav> <!--// NAV CLOSED-->
-        <div class="container">
+        </nav> <!--// nav closed -->
+        <!-- CONTENET -->
+        <div id="container">
             <h1>simplicity & clarity</h1>
-            <p>I'm strive for these two things & Great design don't born without them SO...</p>
-            <a href="contact.html">Let's Get Started</a>
-            <a href="http://">Learn More</a>
-        </div> <!--// .CONTAINER CLOSED-->
-    </header> <!--// HEADER CLOSED-->
+            <h2>I'm strive for these two things & Great design don't born without them SO...</h2>
+            <button type="button" class="btn"><a href="contact.html">GET STARTED</a></button>
+            <button type="button" class="btn"><a href="http://">LEARN MORE</a></button>
+        </div> <!--// .container closed-->
+    </header> <!--// header closed -->
 
-    <section class="my-expertise">
-        <h1>My Expertise</h1>
+    <section id="my-expertise">
+        <h3>My Expertise</h3>
         <p>I've got chops in all phases of the design process.</p>
-        <table border="1px solid red;">
+        <table class="noborder">
             <thead>
                 <tr>
-                    <th><img src="" alt="Stratergy"></th>
-                    <th><img src="" alt="UI/UX"></th>
-                    <th><img src="" alt="Development"></th>
+                    <th><img src="assets/img/icons/hand_with_pen.png" alt="Stratergy"></th>
+                    <th><img src="assets/img/icons/broom.png" alt="UI/UX"></th>
+                    <th><img src="assets/img/icons/gear_icon.png" alt="Development"></th>
                 </tr>
                 <tr>
-                        <th>Statergy</th>
+                        <th>Stratergy</th>
                         <th>UI/UX</th>
                         <th>Development</th>
                 </tr> 
             </thead> <!--// thead-->
             <tbody>
                 <tr>
-                    <td><p>I collaborate with clients and peers to nurture and 
-                    transform ideas into well thought out design specs.
-                    After all, that's where the majority of amazing user 
-                    experiences start.</p></td> <!--Startergy Content-->
-                    <td><p>I sketch and wireframe interfaces focusing on content 
-                    structure, intuitive UI patterns and simple interactions.
-                    I'm a minimalist who truly believes that less is more.</p></td> <!--UI/UX Content-->
-                    <td><p>I design in the browser with HTML(5), CSS(3) and
-                    a touch of JavaScript. I love coding things from scratch, 
-                    but I can work with front-end frameworks like Bootstrap too.</p></td> <!--Development Content-->
+                    <td>I collaborate with clients and peers to nurture and transform ideas into well thought out design specs.After all, that's where the majority of amazing user experiences start.</td> <!--Startergy Content-->
+                    <td>I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions.I'm a minimalist who truly believes that less is more.</td> <!--UI/UX Content-->
+                    <td>I design in the browser with HTML(5), CSS(3) anda touch of JavaScript. I love coding things from scratch, but I can work with front-end frameworks like Bootstrap too.</td> <!--Development Content-->
                 </tr>
             </tbody> <!--// tbody-->
         </table> <!--// Table-->
     </section> <!--// .My-Expertise-->
 
+    <section id="my-work">
+        <h3 class="title">My Work</h3>
+        <p class="description">Carefully crafted with lots of Love</p>
+        <p>it will be uploaded soon : )</p>
+    </section>
 
+    <section id="personal-projects">
+            <h3 class="title">Personal Projects</h3>
+            <p class="description">When I'm not freelancing, I'm going busy to all these stuffs</p>
+            <p>it will be uploaded soon : )</p>
+    </section>
+
+    <section id="hire-me">
+            <h3 class="title">WANT TO WORK TOGETHER ?</h3>
+            <p class="description">I'm currently not accepting new projects because I'm working on my portfolio site</p>
+            <button type="button" id="btn"><a href="http://">GET STARTED</a></button>
+
+    </section>
+
+    <footer>
+        <div id="social-media">
+            <h5>Developed By : <a href="http://"> Akshay Samel</a></h5>
+        </div>
+    </footer>
 </body>
 </html>

@@ -7,61 +7,145 @@ body {
     box-sizing: border-box;
     font-family: Roboto;
 }
-
-header {
-    width: 100%;
-    height: 800px;
-    background: url('../img/hero_img.jpg') no-repeat center;
-    background-size: cover;
-}
-
-ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 8px;
-}
 a {
     color: #fff;
     text-decoration: none;
 }
 
-.company_logo {
-    font-size: 25px;
+/* HEADER */
+header {
+    width: 100%;
+    height: 664px;
+    background: 
+    linear-gradient(rgba(44, 43, 43, 0.788), rgba(44, 43, 43, 0.788)), 
+    url('../img/hero_img.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+#company_logo {
+    font-size: 20px;
     text-transform: uppercase;
     border: 2px solid #fff;
     padding: 10px;
     float: left;
     margin: 25px;
-    position: relative;
+    position: absolute;
 }
-
 nav {
     float: right;
     margin: 35px;
+    left: 60%;
     position: absolute;
 }
-
-.container {
-    width: 50%;
-    margin: auto;
-
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px;
+}
+ul>li>a:hover {
+    border-bottom: 2px solid crimson;
+    padding-bottom: 10px;
 }
 
-.container h1 {
-    font-size: 55px;
-    text-transform: capitalize;
-    color: crimson;
+#container {
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#container>h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: rgb(134, 9, 9);
     line-height: 1.5em;
 }
-.container p {
-    font-size: 25px;
-    color: white;
-}
-.container a {
+#container>h2 {
     font-size: 20px;
-    color: crimson;
-    border: 2px solid #fff;
-    padding: 10px;
-    line-height: 5em;
-    margin: 0px 25px;
+    color: white;
+    font-weight: 300;
+}
+.btn {
+    margin: 35px 30px;
+    background: rgb(134, 9, 9);
+}
+
+button {
+   padding: 15px 20px;
+   border: none;
+   color: white;
+   font-size: 15px;
+}
+
+/* MY EXPERTISE */
+#my-expertise {
+    margin-top: 50px;
+    line-height: 4em;
+}
+.title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.description {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 300;
+}
+
+table {
+    margin-top: 60px;
+    margin: 50px;
+}
+th {
+    font-size: 30px;
+    line-height: 1.5em;
+}
+
+td {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#my-work {
+    background: whitesmoke;
+    line-height: 4em;
+    padding-top: 60px;
+}
+
+#personal-projects {
+
+}
+
+#hire-me {
+    background: rgb(133, 6, 6);
+    color: white;
+    margin-top: 60px;
+    padding-top: 60px;
+}
+#hire-me>p {
+    font-size: 20px;
+}
+#btn {
+    background: none;
+    margin: 35px 600px;
+    border: 2px solid black;
+}
+
+footer {
+    background:black;
+    padding: 50px;
+}
+
+#social-media>h5 {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    margin: 0 auto;
+    width: 25%;
 }
